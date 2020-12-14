@@ -1,0 +1,26 @@
+{
+  "name": "pptr_pro",
+  "version": "1.0.0",
+  "description": "Learning puppeteer ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests",
+    "scraper": "node scrapper.js",
+    "scraper:3": "for run in {1..3}; do node scrapper.js; done"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Mocha",
+    "Chai",
+    "Automation"
+  ],
+  "author": "Parul Sahoo",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "prettier": "^2.2.1",
+    "puppeteer": "^5.5.0",
+    "random-useragent": "^0.5.0"
+  }
+}
